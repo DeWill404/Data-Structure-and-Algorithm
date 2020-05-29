@@ -1,5 +1,5 @@
 # Radix Sort #
-##### Radix sort also known as Bucket Sort is a non-comparative sorting algorithm. It avoids comparison by creating and distributing elements into buckets according to their radix.####
+##### Radix sort also known as Bucket Sort is a non-comparative sorting algorithm. It avoids comparison by creating and distributing elements into buckets according to their radix. ####
 
 ### Algorithm
 1)		Take an array A[N] of size N

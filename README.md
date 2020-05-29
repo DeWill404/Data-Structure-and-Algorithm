@@ -12,3 +12,5 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 * [Sorting](https://github.com/DeWill404/Data-Structure-and-Algorithm/tree/master/Sorting)
 	* [Insertion Sort](https://github.com/DeWill404/Data-Structure-and-Algorithm/tree/master/Sorting/Insertiontion%20Sort)
 	* [Bubble Sort](https://github.com/DeWill404/Data-Structure-and-Algorithm/tree/master/Sorting/Bubble%20Sort)
+	* [Selection Sort](https://github.com/DeWill404/Data-Structure-and-Algorithm/tree/master/Sorting/Selection%20Sort)
+	* [Radix Sort](https://github.com/DeWill404/Data-Structure-and-Algorithm/tree/master/Sorting/Radix%20Sort)

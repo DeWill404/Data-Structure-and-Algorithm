@@ -1,4 +1,4 @@
-public class InsertionSort {
+public class BubbleSort {
 
     // Sorting Function
     private static void sort(int[] a, int n) {

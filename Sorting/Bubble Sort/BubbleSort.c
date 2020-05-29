@@ -31,7 +31,7 @@ int main() {
     sort(array, n);
 
     // Sorted Array Output
-    printf("\nUnsorted Array :-\n");
+    printf("\nSorted Array :-\n");
     for (int i=0; i<n; i++)
         printf("%-4d", array[i]);
 

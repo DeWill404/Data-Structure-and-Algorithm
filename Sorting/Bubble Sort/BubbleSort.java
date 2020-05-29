@@ -32,7 +32,7 @@ public class BubbleSort {
         sort(array, n);
 
         // Sorted Array Output
-        System.out.println("\nUnsorted Array :-");
+        System.out.println("\nSorted Array :-");
         for (int i=0; i<n; i++)
             System.out.print(array[i]+"   ");
 

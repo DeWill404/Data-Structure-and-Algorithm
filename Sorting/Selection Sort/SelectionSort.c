@@ -3,15 +3,16 @@
 // Sorting Function
 void sort(int a[], int n) {
     
-    for (int i=1; i<n; i++) {
-        int j = i;
-        int temp = a[i];
-        // while (j>0 && temp<a[j-1]) {  // Asending Order
-        while (j>0 && temp>a[j-1]) {  // Decending Order
-            a[j] = a[j-1];
-            j--;
+    for (int i=0; i<n; i++) {
+        int index = i;
+        for (int j=i; j<n; j++) {
+            // if (a[index] > a[j])     // Asending Order
+            if (a[index] < a[j])        // Desending Order
+                index = j;
         }
-        a[j] = temp;
+        int temp = a[i];
+        a[i] = a[index];
+        a[index] = temp;
     }
 
 }

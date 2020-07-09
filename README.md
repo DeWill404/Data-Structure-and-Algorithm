@@ -20,4 +20,4 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 		* [Optimized School of Prime Method](https://github.com/DeWill404/Data-Structure-and-Algorithm/tree/master/Prime%20Numbers/Is%20Prime/Optimized%20School%20Method)
 	* [Get Prime List](https://github.com/DeWill404/Data-Structure-and-Algorithm/tree/master/Prime%20Numbers/Range%20Of%20Prime)
 		* [Naive Method](https://github.com/DeWill404/Data-Structure-and-Algorithm/tree/master/Prime%20Numbers/Range%20Of%20Prime/Naive%20Method)
-		* [Seive Of Eratosthenes](https://github.com/DeWill404/Data-Structure-and-Algorithm/tree/master/Prime%20Numbers/Range%20Of%20Prime/Seive%20Of%20Eratosthenes)
+		* [Sieve Of Eratosthenes](https://github.com/DeWill404/Data-Structure-and-Algorithm/tree/master/Prime%20Numbers/Range%20Of%20Prime/Sieve%20Of%20Eratosthenes)

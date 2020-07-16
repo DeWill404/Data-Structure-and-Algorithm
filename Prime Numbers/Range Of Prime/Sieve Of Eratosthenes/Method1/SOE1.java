@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class SOE {
+public class SOE1 {
 	// Seive OF Eratosthenes
 	private static ArrayList<Integer> seive(int max) {
 		// Bool List

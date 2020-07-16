@@ -31,4 +31,5 @@ void main() {
 	for ( int i=0; i<=max; i++ )
 		if ( primeList[i]=='1' )
 			printf("%d ", i);
+	printf("\n");
 }

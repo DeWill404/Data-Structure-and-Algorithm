@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class SOE2 {
+public class MOP {
 	// Sieve of Eratosthenes Factors Of ODD
 	/*
 		This algo is for optimizing space complexity by half....

@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class SOE3 {
+public class MNP {
 	// Seive Function
 	private static ArrayList<Integer> seive(int max) {
 		// Reviesed MAX

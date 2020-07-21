@@ -9,22 +9,28 @@ def sort(l, n):
     # Travering through each digit
     d = 1
     while _max//d > 0:
+        
         # Reset count array
         for i in range(10):
             count[i] = 0
+        
         # Set count at digit available on d'th place
         for i in range(n):
             count[ (l[i]//d)%10 ] += 1
+        
         # Make contineous count array
         for i in range(1, 10):
             count[i] += count[i-1]
+        
         # Arrange array w.r.t. d'th position
         for i in range(n-1, -1, -1):
             count[(l[i]//d)%10] -= 1
             temp[ count[(l[i]//d)%10] ] = l[i]
+        
         # Copy content to original array
         for i in range(n):
             l[i] = temp[i]
+        
         d *= 10
 
     # Desending Order

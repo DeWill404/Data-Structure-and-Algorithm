@@ -18,15 +18,19 @@ void sort(int a[], int n) {
         // Reset count array
         for (int i=0; i<10; i++)
             count[i] = 0;
+        
         // Set count at digit available on d'th place
         for (int i=0; i<n; i++)
             count[ (a[i]/d)%10 ]++;
+        
         // Make contineous count array
         for (int i=1; i<10; i++)
             count[i] += count[i-1];
+        
         // Arrange array w.r.t. d'th position
         for (int i=n-1; i>=0; i--)
             temp[ --count[(a[i]/d)%10] ] = a[i];
+        
         // Copy content to original array
         for (int i=0; i<n; i++)
             a[i] = temp[i];

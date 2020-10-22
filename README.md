@@ -25,3 +25,7 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 		* Marking Not Primes
 		* Marking Odd Primes
 		* Sieve Of Eratosthenes
+* Factorization Of Numbers
+	* Naive Factorization
+	* Pair Factorization
+	* Prime Factorization

@@ -16,6 +16,7 @@ In mathematics and computer science, an algorithm is a finite sequence of well-d
 	* Quick Sort
 	* Radix Sort
 	* Selection Sort
+	* Counting Sort
 * Prime Numbers
 	* Check for Prime
 		* Naive Method
